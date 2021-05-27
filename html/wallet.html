@@ -10,8 +10,8 @@
       integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="../css/index.css" />
-    <title>Assgn</title>
+    <link rel="stylesheet" href="../css/redeem.css" />
+    <title>Agghn</title>
   </head>
   <body>
     <div class="main">
@@ -24,10 +24,9 @@
           <div>How it works</div>
           <div>Notification</div>
           <div class="button">
-            <button id="myBtn">Login</button>
+            <button id="myBtn" class="myBtn">Login</button>
           </div>
         </div>
-
         <div id="myModal" class="modal">
           <div class="modal-content">
             <span class="close">&times;</span>
@@ -50,25 +49,47 @@
           </div>
         </div>
       </header>
-      <main>
-        <div class="main-content">
-          <img src="../assets/index_assets/scr5.b.png" alt="logo" />
-          <img src="../assets/index_assets/scr5.c.png" alt="logo" />
-          <img src="../assets/index_assets/scr5.d.png" alt="logo" />
-          <img src="../assets/index_assets/scr5.e.png" alt="logo" />
-          <img src="../assets/index_assets/scr5.f.png" alt="logo" />
-          <img src="../assets/index_assets/scr5.h.png" alt="logo" />
-        </div>
-        <div class="small-icons">
-          <img src="../assets/index_assets/scr5.a.a.png" alt="logo" />
-          <img src="../assets/index_assets/scr5.a.b.png" alt="logo" />
-          <img src="../assets/index_assets/scr5.a.c.png" alt="logo" />
-          <img src="../assets/index_assets/scr5.a.d.png" alt="logo" />
-          <img src="../assets/index_assets/scr5.a.e.png" alt="logo" />
-          <img src="../assets/index_assets/scr5.a.f.png" alt="logo" />
-        </div>
-      </main>
     </div>
+    <main>
+      <div class="main-content">
+        <div class="wallet">
+          <h1>Wallet</h1>
+          <div class="wallet-img">
+            <img
+              id="rectangle"
+              src="../assets/wallet_assets/Rectangle2230.jpg"
+              alt="logo"
+            />
+            <img
+              id="wallet-logo"
+              src="../assets/wallet_assets/Group4353.jpg"
+              alt=""
+            />
+            <h4 id="wallet-amount">Wallet Amount</h4>
+            <h3 id="wallet-numbers" >Rs 20,000.0/-</h3>
+          </div>
+        </div>
+       
+        <div class="redeem-money">
+          <h1>Redeem money</h1>
+          <div class="card">
+              <img src="../assets//wallet_assets/Group4263.jpg" alt="">
+              <div class="amount-summary">
+                  <h1  style="color: blue;font-size: 20px;">Transfer to Bank</h1>
+                  <div style="border-width: 5px;border-color: blue;">Subtotal Balance</div>
+              </div>
+          </div>
+          <button id="redeem-money-btn">Confirm</button>
+        </div>
+        <div class="tax-details">
+            <h4>Tax details</h4>
+            <ul>
+                <li>Name on pan card: ankit</li>
+                <li>Pan card number: XXXXXX</li>
+            </ul>
+        </div>
+      </div>
+    </main>
     <footer>
       <div class="footer_logo">
         <img src="../assets/index_assets/logo_small.png" alt="logo" />
@@ -93,7 +114,7 @@
       </div>
       <div class="wallet">
         <h2>Profile</h2>
-        <h2><a id="wallet-link" href="./wallet.html">Wallet</a></h2>
+        <h2>Wallet</h2>
         <h2>Referral Team</h2>
         <h2>Setting</h2>
       </div>

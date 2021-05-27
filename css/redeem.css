@@ -10,10 +10,6 @@ a{
     text-decoration: none;
     color:#9a9ca3;;
 }
-#wallet-link{
-    text-decoration: none;
-    color: black;
-}
 .navbar{
     width: 95%;
     /* height: 100%; */
@@ -28,7 +24,7 @@ a{
     /* width: 100%; */
 }
 
-#myBtn{
+.myBtn{
     width: 80px;
     height: 40px;
     color: white;
@@ -53,37 +49,96 @@ img{
 }
 
 main{
-    background-color:#f0f4fc;
-    height: 900px;
+    /* background-color:#f0f4fc; */
+    height: 700px;
+    margin-top:40px ;
 }
 .main-content{
     width: 95%;
-    /* height: 100%; */
     margin:  0 auto;
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    /* justify-content: space-between;  */
 }
-.main-content img{
-    margin-top: 40px;
-    width: 550px;
-    height: 250px;
-}
+/* .wallet-img img{
+    width: 300px;
+    height: 400px;
+} */
 
-.small-icons{
-    width: 95%;
-    /* height: 100%; */
-    margin:  0 auto;
+.wallet{
+    margin-right: 100px;
+}
+.wallet-img{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+#rectangle{
+    height: 400px;
+    width: 300px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+#wallet-logo{
+    position: absolute;
+    width: 100px;
+    top: 30px;
+    left: 100px;
+    border-radius: 50%;
+}
+#wallet-amount{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+      top: 170px;
+    left: 70px;
+}
+#wallet-numbers{
+    position: absolute;
+    color: white;
+    font-size: 35px;
+      top: 200px;
+    left: 65px;
+}
+.card{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    width:400px;
+    height: 250px;
+    margin: 20px 0 20px 20px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* background-color: black; */
 }
-.small-icons img{
-    margin-top: 40px;
-    width:230px ;
-    height: 230px;
+.card img{
+    height: 110px;
+    width: 110px;
 }
+ul{
+    list-style-type: none;
+}
+.tax-details{
+    margin-top: 100px;
+    height: 200px;
+    padding: 10px;
+    background-color: #3804ac;
+    color: white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 
+}
+#redeem-money-btn{
+  width: 95%;
+  margin-top: 30px;
+  margin-left: 20px;
+  background-color: #3804ac;
+  color: white;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  
+}
 footer{
     height: 400px;
     width: 95%;
