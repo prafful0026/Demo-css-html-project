@@ -2,6 +2,8 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: "Times New Roman", Times, serif;
+
 }
 
 .navbar{
@@ -14,7 +16,22 @@ body{
     justify-content: space-between;
     align-items: center;
     font-size: 25px;
+    color: #9a9ca3;
     /* width: 100%; */
+}
+
+button{
+    width: 80px;
+    height: 40px;
+    color: white;
+    background-color: #00cb74;
+    border:none;
+    /* border-radius: 10px 0 0 10px; */
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+
 }
 img{
     width: 200px;
@@ -64,4 +81,33 @@ footer{
     width: 95%;
     /* height: 100%; */
     margin:  0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer_logo{
+    margin-top: 20px;
+    color: #9a9ca3;
+    width: 400px;
+    font-size: 25px;
+
+}
+.footer_logo img{
+    width: 200px;
+    height: 75px;
+    
+}
+.business_service{
+    line-height: 30px;
+}
+.finance_service{
+    line-height: 30px;
+    
+}
+
+.service_subheading{
+    color: #9a9ca3;
+    font-size: 20px;
+
+
 }
